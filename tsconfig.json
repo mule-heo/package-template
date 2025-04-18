@@ -1,0 +1,15 @@
+{
+  "include": ["src", "test"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "types": ["vitest"]
+  }
+}
